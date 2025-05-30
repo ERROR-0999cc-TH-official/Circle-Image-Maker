@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="th" translate="no">
+<head>
+    
+  <meta charset="UTF-8">
+  <title>[ รูปภาพวงกลม ]</title>
+  
+  <!-- เปลี่ยนสีสำหรับ Chrome, Firefox OS, Opera -->
+<meta name="theme-color" content="#ADD8E6">
+
+<!-- เปลี่ยนสีสำหรับ Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#ADD8E6">
+
+<!-- เปลี่ยนสีสำหรับ iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  <!-- บล็อกการแปลภาษาจาก google -->
+   <meta name="google" content="notranslate">
+   
+  <!-- ไอคอนเว็บ -->
+  <link rel="icon" href="icon-ui.png" type="image/png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css-server-ui.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+    
+ <!-- หน้าโหลด -->
+  <div id="preloader">
+    <img src="icon-ui.png" alt="Loading">
+    <p id="loading-text">[ Loading... ]</p>
+  </div>
+
+  <!-- ครอบเนื้อหาหลักด้วย overlay -->
+  <div id="overlay"></div>
+
+  <!-- หนัาหลัก -->
+  <div id="main-content">
+    <h1>[ ตัดรูปภานเป็นวงกลม ]</h1>
+
+    <label class="button" for="upload">[ เลือกรูปภาพ PNG ]</label>
+    
+    <input type="file" id="upload" accept="image/png" /><br>
+
+    <label>[ ปรับความหนาขอบ ( 0-100 px ) 
+      <input class="A" type="number" id="borderSize" min="0" max="100" value="1">
+    ]</label>
+    
+    <hr class="hr-2">
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <a class="a-1" id="download" href="#" download="Free-image-id.png">[ ดาวน์โหลดรูป (PNG) ]</a>
+    
+    <hr class="hr-2">
+    
+        <hr class="hr-0">
+        <hr class="hr-0">
+      
+    <h1>[ ช่องทางการติดต่อ ]</h1>
+    <p>- รายงานปัญหา</p>
+    <p>- เสนอไอเดีย</p>
+    <p>- พูดคุย</p>
+    
+    <a class="a-1" href="https://discord.gg/Effjq9dJau">[ discord ]</a>
+    
+        <hr class="hr-0">
+        <hr class="hr-0">
+                <hr class="hr-0">
+                    <hr class="hr-0">
+                        <hr class="hr-0">
+                            <hr class="hr-0">
+        <hr class="hr-0">
+        <hr class="hr-0">
+                <hr class="hr-0">
+                    <hr class="hr-0">
+                        <hr class="hr-0">
+                            <hr class="hr-0">
+        <hr class="hr-0">
+        <hr class="hr-0">
+                <hr class="hr-0">
+                    <hr class="hr-0">
+                        <hr class="hr-0">
+    
+    <hr class="hr-2">
+
+    <!-- เครดิต -->
+    <h1>[ เว็บไซต์โดย ]</h1>
+    <h2>: [ERROR 0999cc] TH [official] :</h2>
+    <hr class="hr-1">
+    <h1>[ ดำเนินการโดย ]</h1>
+    <a href="https://www.github.com">
+      <h2>: GitHub.com :</h2>
+    </a>
+  </div>
+
+
+<script
+
+src="javascript-server-ui.js">
+    
+</script>
+
+
+
+</body>
+</html>
